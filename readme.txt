@@ -1,5 +1,5 @@
-1. �����ļ�������wamp/www��
-2. wampserverĬ���û�����root     ���룺123456���
-	    ����������б䶯�����޸�conn.php�е�����'123456'Ϊ��ȷ���룩
-3. ��mes.sql�������ݿ�  ���Ƚ���һ��'mes'���ݿ⣬Ȼ��mes.sql���룩
-4. ����  localhost/mes
+1. 新建一个文件夹,例如mes, 将拉取的内容置于wamp/www/mes下
+2. wampserver默认用户名：root     密码：123456或空
+	    （如果密码有变动，请修改conn.php中的密码'123456'为正确密码）
+3. 将mes.sql导入数据库  （先建立一个'mes'数据库，然后将mes.sql导入）
+4. 访问  localhost/mes
